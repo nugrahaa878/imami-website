@@ -1,0 +1,1 @@
+# Ikatan Mahasiswa Minang Universitas Indonesia
