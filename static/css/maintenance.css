@@ -1,0 +1,32 @@
+.content-container {
+    height: 90vh;
+}
+
+.img-container {
+    margin-right: 30px;
+}
+
+.text-container {
+    padding-top: 20px;
+    padding: 10px;
+}
+
+img {
+    width: 120px;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-container h1,
+    .text-container p {
+        text-align: center;
+    }
+    .text-container {
+        padding: 10px;
+    }
+    .img-container {
+        margin-bottom: 10px;
+    }
+    .text-container h1 {
+        size: 10px;
+    }
+}

@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link rel="shortcut icon" type="image/png" href="{% static 'img/imami.png' %}" />
     <title>IMAMI UI</title>
 
     {% include "snippets/styles.html" %}
@@ -13,10 +14,7 @@
 </head>
 
 <body>
-    {% include "snippets/navbar.html" %}
-    <h1>Home</h1>
-
-    {% include "snippets/scripts.html" %}
+    {% include "snippets/navbar.html" %} {% block content %} {% endblock content %} {% include "snippets/scripts.html" %}
 </body>
 
 </html>
