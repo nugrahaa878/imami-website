@@ -1,5 +1,15 @@
-{% extends "home/base.html" %} {% block content %}
+{% extends "home/base.html" %} {% load static %} {% block content %}
 <div class="home-container">
-    <h1>IKATAN MAHASISWA MINANG UNIVERSITAS INDONESIA</h1>
+    <div class="home-container row justify-content-center align-content-center">
+        <div class="home-left">
+            <img src="{% static 'img/imami.png' %}" alt="imami-logo">
+        </div>
+
+        <div class="home-right column align-content-center">
+            <h6>IMAMI UI</h6>
+            <h3>Ikatan Mahasiswa Minang Universitas <br> Indonesia</h3>
+            <button type="button" class="btn btn-secondary">About</button>
+        </div>
+    </div>
 </div>
 {% endblock content %}

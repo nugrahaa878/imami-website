@@ -8,5 +8,3 @@
 
 Contributor :
 - Ari Angga Nugraha
-- Iqrar Agalosi Nureyza
-- Muhammad Agung Yulianang

@@ -1,17 +1,18 @@
-.navbar {
-    background-color: #111111 !important;
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+.navbar{
+    background-color: #272727 !important;
 }
 
-.logo-navbar {
-    height: 72px;
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 2.5rem;
 }
 
-.nav-item {
-    margin-right: 50px;
-}
-
-.home-container {
-    background-image: url('/static/img/home.jpg');
-    width: 100%;
-    height: 500px;
+@media only screen and (max-width: 985px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
 }
