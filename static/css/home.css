@@ -163,7 +163,7 @@ html, body {
 
 /* ------------------------------------------------ */
 .kegiatan-container {
-    height: 100%;
+    height: 110%;
     background-image: linear-gradient(to top right, #000000, #414141);
 }
 
@@ -214,7 +214,11 @@ html, body {
     background-color: #424242;
     border-radius: 10px;
     width: 400px;
-    height: 360px;
+    height: fit-content
+}
+
+.mcf-container h3, .kgtk-container h3 {
+    font-weight: normal !important;
 }
 
 .block-mcf {
@@ -227,6 +231,45 @@ html, body {
     border-radius: 10px;
     width: 400px;
     height: 360px;
+}
+
+.mcf-about, .kgtk-about {
+    background-color: #262626;
+    border-radius: 10px;
+    margin: 30px 20px !important;
+}
+
+.mcf-about p, .kgtk-about p {
+    padding: 20px;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.mcf-more h4, .kgtk-more h4 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.kegiatan-container .carousel-container {
+    background-color: #262626;
+}
+
+.kegiatan-container .carousel-container img{
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.more-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mcf-more, .kgtk-more {
+    display: none;
+}
+
+.kgtk-container {
+    height: fit-content;
 }
 
 @media only screen and (max-width: 840px) {
@@ -257,7 +300,15 @@ html, body {
     }
 
     .mcf-container, .kgtk-container {
-        height: 320px;
+        height: fit-content;
     }
+}
 
+@media only screen and (min-width: 768px) {
+    .kegiatan-container .galeri-container {
+        display: none;
+    }
+    .mcf-more h4, .kgtk-more h4 {
+        display: none;
+    }
 }
