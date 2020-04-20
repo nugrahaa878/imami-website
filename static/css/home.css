@@ -98,6 +98,10 @@ html, body {
     margin-bottom: 20px;
 }
 
+.motto-container p {
+    font-style: italic;
+}
+
 .about-content {
     font-size: 14px;
 }
